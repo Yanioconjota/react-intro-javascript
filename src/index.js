@@ -1,15 +1,1 @@
-import {heroes} from './data/heroes';
-
-// const getHeroeById = (id) => {
-//   return heroes.find((heroe) => {
-//     return heroe.id === id
-//   });
-// }
-
-const getHeroeById = id => heroes.find(heroe => heroe.id === id);
-
-console.table(getHeroeById(1));
-
-const getHeroeByOwner = owner => heroes.filter(heroe => heroe.owner === owner);
-
-console.table(getHeroeByOwner('Marvel'));
+console.log('Pendiente: Fetch API https://www.udemy.com/course/react-cero-experto/learn/lecture/19638594#overview');

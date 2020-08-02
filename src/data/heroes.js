@@ -1,4 +1,4 @@
-export const heroes = [{
+const heroes = [{
     id: 1,
     name: 'Batman',
     owner: 'DC'
@@ -24,3 +24,16 @@ export const heroes = [{
     owner: 'Marvel'
   },
 ];
+
+export const owners = ['DC', 'Marvel'];
+
+export default heroes;
+
+
+// export {
+//   heroes as default,
+//   owners
+// }
+
+//Heroes es la exportación por defecto
+//Owners es un export adicional que se obtiene desestructurando el archivo heroes.js
